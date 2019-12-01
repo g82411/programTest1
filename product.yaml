@@ -1,0 +1,15 @@
+- model: manageproduct.Product
+  pk: 1
+  fields:
+    inventory: 1
+    shop: TPE
+    price: 102
+    vipOnly: False
+
+- model: manageproduct.Product
+  pk: 2
+  fields:
+    inventory: 100
+    shop: JPY
+    price: 300
+    vipOnly: True
